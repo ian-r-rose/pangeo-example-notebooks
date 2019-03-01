@@ -33,12 +33,12 @@ dependencies:
   - lz4
   - nbserverproxy
   - jupyter
-  - jupyterlab=0.35
   - ipywidgets
   - ipyleaflet
   - graphviz
   - dask-kubernetes
   - pip:
+    - jupyterlab==1.0.0a1
     - git+https://github.com/xgcm/xgcm.git
     - git+https://github.com/pydata/xarray.git
     - git+https://github.com/dask/distributed.git
